@@ -1,0 +1,220 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #004FF9;
+    background: -webkit-linear-gradient(to top, #FFF94C, #004FF9);
+    background: linear-gradient(to top, #FFF94C, #004FF9);
+}
+
+@font-face {
+    font-family: "Minecraft";
+    src: url("../fonts/Minecraft.ttf") format("truetype");
+ }
+
+/* Container */
+
+.container{
+    width: 1200px;
+    height: 1050px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+/* Header */
+
+.header{
+    width: 1200px;
+    height: 150px;
+    background: #CB7C03;
+    display: flex;
+}
+
+/*  */
+
+/* Navigation */
+
+.nav{
+    width: 670px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    justify-content: space-between;
+}
+
+.content{
+    list-style: none;
+}
+
+.item{
+    color: #F3C300;
+    font-size: 36px;
+    font-family: "Minecraft";
+    text-decoration: none;
+}
+
+.wrapper{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon_ua{
+    width: 50px;
+    height: 50px;
+}
+
+.icon_us{
+    width: 50px;
+    height: 50px;
+}
+
+.container2{
+    width: 1200px;
+    height: 1000px;
+    display: flex;
+    position: relative;
+    background: cadetblue;
+    flex-wrap: wrap;
+} 
+
+.mySlides {
+    display: none;
+  }
+  
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 24px;
+    padding: 8px 12px;
+    position: absolute;
+    text-align: center;
+    font-family: "Minecraft";
+    margin-left: 540px;
+    margin-top: 28px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+  .slide{
+    width: 1200px;
+    height: 860px;
+  }
+
+  .box{
+    width: 1200px;
+    height: 20px;
+  }
+
+  .name_mod{
+    text-align: center;
+    color: #fff;
+    font-family: "Minecraft";
+  }
+
+  .text_mod{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 16px;
+    color: #fff;
+    font-family: "Minecraft";
+  }
+
+  .progress{
+    position: relative;
+    height: 10px;
+    width: 1110%;
+    border: 10px solid #f4a261;
+    border-radius: 15px;
+    padding-bottom: 10px;
+  }
+
+  .progress .color{
+    position: absolute;
+    background-color: #ffffff;
+    width: 0px;
+    height: 10px;
+    border-radius: 15px;
+    animation: progres 4s infinite linear;   
+  }
+
+  @keyframes progres{
+    0%{
+      width: 0%;
+    }
+    25%{
+        width: 50%;
+    }
+    50%{
+        width: 75%;
+    }
+    75%{
+        width: 85%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+/*  */

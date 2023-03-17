@@ -123,9 +123,9 @@ body{
     border-radius: 12px;
 }
 
-.button_mod:hover{
+.button_mod{
     animation-name: button;
-    animation-duration: 5s;
+    animation-duration: 7s;
     animation-iteration-count: infinite;
 }
 
@@ -137,11 +137,11 @@ body{
     }
 
     50%{
-        background: #004FF9;
+        background: blue;
     }
 
     75%{
-        background: #FFF94C;
+        background: yellow;
     }
 
     100%{
